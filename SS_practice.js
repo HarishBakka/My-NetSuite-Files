@@ -1,3 +1,7 @@
+var nlobjContext = nalpiGetRecordId();
+var nlobjContext = nlapiGetRecordType();
+var nlobjContext = nlapiGetUser();
+var nlapiContext = nlapiGetRole();
 var nlobjContext = nlapiGetContext();
 var name = nlobjContext.getName();
 var UserID = nlobjContext.getUser();
